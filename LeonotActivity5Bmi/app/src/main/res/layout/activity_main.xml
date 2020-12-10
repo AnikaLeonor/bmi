@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FBF8F8"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mdmas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:rotationY="-4"
+        android:background="@color/purple_500"
+        android:text="MDA Midterm"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/names"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/weights"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Weight"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/heights"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Height"
+        android:layout_gravity="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/equals"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/purple_500"
+        android:text="Go"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/results"
+        android:layout_width="296dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:text="Name \nBody: Mass Index:"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp" />
+
+</LinearLayout>

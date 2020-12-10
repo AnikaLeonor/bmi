@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mdmas"
+        android:layout_width="match_parent"
+        android:layout_height="342dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:rotationY="-4"
+        android:text="MDA Midterm"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/names"
+        android:layout_width="1004dp"
+        android:layout_height="202dp"
+        android:layout_gravity="center"
+        android:hint="Name"
+        android:text="Name"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/weights"
+        android:layout_width="1009dp"
+        android:layout_height="210dp"
+        android:layout_gravity="center"
+        android:hint="Weight"
+        android:inputType="number" />
+</LinearLayout>
